@@ -1,0 +1,39 @@
+{
+  "name": "cesp-ton",
+  "version": "1.0.0",
+  "description": "CESP sound adapter for TON agents -- 100+ sound packs for real-time audio observability",
+  "main": "dist/cesp-ton.js",
+  "types": "dist/cesp-ton.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "INTEGRATE.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ton",
+    "cesp",
+    "peonping",
+    "openpeon",
+    "sound",
+    "audio",
+    "agent",
+    "developer-tools",
+    "observability",
+    "telegram",
+    "blockchain"
+  ],
+  "author": "PeonPing",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PeonPing/cesp-ton"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "typescript": "^5.0.0"
+  }
+}
