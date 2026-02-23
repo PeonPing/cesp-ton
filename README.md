@@ -22,6 +22,8 @@ Wire 5 lines into your agent's event handlers. Now you *hear* what your agent is
 
 ## Demo
 
+![CESP-TON terminal preview](demo/terminal-preview.png)
+
 See the [demo video](demo/cesp-ton-demo.mp4) -- a 30-second video showing a TON trading agent running locally with Warcraft Peon sound feedback on every blockchain event.
 
 ## Quick Start
